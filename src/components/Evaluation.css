@@ -1,0 +1,31 @@
+.evaluation-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.progress-summary {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #ddd;
+  border-radius: 4px;
+  height: 20px;
+  position: relative;
+}
+
+.progress-bar-fill {
+  background: #28a745;
+  height: 100%;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

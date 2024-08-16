@@ -1,0 +1,44 @@
+.home-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.home-container h1 {
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-group a {
+  text-decoration: none;
+}
+
+.button-group button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.button-group button:active {
+  transform: scale(0.98);
+}
